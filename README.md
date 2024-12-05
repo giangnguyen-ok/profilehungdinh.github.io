@@ -1,5 +1,6 @@
 <h2>Profile các bạn nhóm 5</h2>
 <ul>
+<li>Mình tên là  Đặng Hùng Dinh, hiện đang theo học tại ngôi trường THPT CHuyên Bến Tre, mình rất hân hạnh được giới với tất cả mọi người về bản thân mình</li>
 <li> Thông tin cá nhân
     <ol>
     <li>Họ và tên: Đặng Hùng Dinh</li>

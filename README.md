@@ -1,7 +1,7 @@
 <h2>Profile các bạn nhóm 5</h2>
 <ul>
 <li>Mình tên là  Đặng Hùng Dinh, hiện đang theo học tại ngôi trường THPT CHuyên Bến Tre, mình rất hân hạnh được giới với tất cả mọi người về bản thân mình</li>
-    <image src="z6098482597170_f4cf723791d4f9219190285715e5820a.jpg">
+    <image src="c53a02299b14214a7805.jpg">
 <li> Thông tin cá nhân
     <ol>
     <li>Họ và tên: Đặng Hùng Dinh</li>

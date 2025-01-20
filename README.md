@@ -26,7 +26,7 @@
 
     /* Pano đầu trang */
     .header {
-      background-color: #753a88; /* Màu nền pano là đen */
+      background-color: #2E3192; /* Màu nền pano là đen */
       color: white;
       text-align: center;
       padding: 20px;

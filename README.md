@@ -26,7 +26,7 @@
 
     /* Pano đầu trang */
     .header {
-      background-color: #000000; /* Màu nền pano là đen */
+      background-color: #00FFFF; /* Màu nền pano là đen */
       color: white;
       text-align: center;
       padding: 20px;
@@ -194,7 +194,7 @@
       </div>
       <div class="text-container info-container">
         <div class="title">Thông tin cá nhân</div>
-        <div class="text">Hiện tại mình học lớp 12 Lý, trường THPT Chuyên Bến Tre. Mình nặng 55kg và cao 1,70m</div>
+        <div class="text">Hiện tại mình học lớp 12 Lý, trường THPT Chuyên Bến Tre. Mình nặng 55kg và cao 1,70m.Mình là một Madridista đấy nhé và thần tượng của mình là Jude Bellingham</div>
       </div>
     </div>
 

@@ -9,7 +9,7 @@
       font-family: 'Lora', serif; /* Sử dụng font Lora */
       margin: 0;
       padding: 0;
-      background-image: url('Nền sân santiago bernabeu.jpg'); /* Thêm hình ảnh nền */
+      background-image: url('Nền 4K.jpg'); /* Thêm hình ảnh nền */
       background-size: cover; /* Lấp đầy toàn bộ trang */
       background-position: center; /* Căn giữa hình ảnh */
     }

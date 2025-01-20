@@ -5,6 +5,9 @@
   <title>Trang Web Của Tôi</title>
   <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet"> <!-- Thêm link font Lora -->
   <style>
+     h1 {
+            display: none;
+            }
     body {
       font-family: 'Lora', serif; /* Sử dụng font Lora */
       margin: 0;

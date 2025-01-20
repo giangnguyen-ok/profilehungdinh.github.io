@@ -63,12 +63,21 @@
     }
 
     /* Dòng giới thiệu khái quát bản thân */
+    .intro-container {
+      background-color: white; /* Màu nền trắng cho khung */
+      padding: 20px;
+      border-radius: 10px; /* Bo góc khung */
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Đổ bóng cho khung */
+      width: 100%;
+      max-width: 800px; /* Độ rộng tối đa của khung */
+      margin-bottom: 40px; /* Khoảng cách dưới khung */
+    }
+
     .intro {
       font-size: 24px;
-      color: #003366; /* Màu xanh dương đậm */
+      color: black; /* Màu đen cho văn bản */
       font-weight: normal;
       text-align: center;
-      margin-bottom: 40px;
     }
 
     .section {
@@ -78,6 +87,16 @@
       width: 100%;
       margin-bottom: 40px;
       flex-wrap: wrap;
+    }
+
+    /* Thêm khung trắng cho các thông tin */
+    .info-container {
+      background-color: white; /* Màu nền trắng cho khung */
+      padding: 20px;
+      border-radius: 10px; /* Bo góc khung */
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Đổ bóng cho khung */
+      width: 100%;
+      max-width: 800px; /* Độ rộng tối đa của khung */
     }
 
     /* Nội dung chính đầu tiên */
@@ -101,14 +120,14 @@
     .first-section .title {
       font-size: 28px;
       font-weight: bold;
-      color: red;
+      color: red; /* Màu đỏ cho tiêu đề */
       text-align: left;
     }
 
     .first-section .text {
       font-size: 20px;
       font-weight: normal;
-      color: #003366; /* Màu xanh dương đậm */
+      color: black; /* Màu đen cho văn bản */
     }
 
     /* Nội dung chính thứ 2 */
@@ -132,14 +151,14 @@
     .second-section .title {
       font-size: 28px;
       font-weight: bold;
-      color: red;
+      color: red; /* Màu đỏ cho tiêu đề */
       text-align: right;
     }
 
     .second-section .text {
       font-size: 20px;
       font-weight: normal;
-      color: #003366; /* Màu xanh dương đậm */
+      color: black; /* Màu đen cho văn bản */
     }
 
     /* Căn chỉnh ảnh */
@@ -159,8 +178,10 @@
 
   <div class="container">
     <!-- Dòng giới thiệu khái quát bản thân -->
-    <div class="intro">
-      Mình tên là  Đặng Hùng Dinh, hiện đang theo học tại ngôi trường THPT CHuyên Bến Tre, mình rất hân hạnh được giới với tất cả mọi người về bản thân mình
+    <div class="intro-container">
+      <div class="intro">
+        Mình tên là Đặng Hùng Dinh, hiện đang theo học tại ngôi trường THPT Chuyên Bến Tre, mình rất hân hạnh được giới với tất cả mọi người về bản thân mình.
+      </div>
     </div>
 
     <!-- Nội dung chính đầu tiên -->
@@ -168,7 +189,7 @@
       <div class="image">
         <img src="c53a02299b14214a7805.jpg" alt="Ảnh 1">
       </div>
-      <div class="text-container">
+      <div class="text-container info-container">
         <div class="title">Thông tin cá nhân</div>
         <div class="text">Hiện tại mình học lớp 12 Lý, trường THPT Chuyên Bến Tre. Mình nặng 55kg và cao 1,70m</div>
       </div>
@@ -176,7 +197,7 @@
 
     <!-- Nội dung chính thứ 2 -->
     <div class="section second-section">
-      <div class="text-container">
+      <div class="text-container info-container">
         <div class="title">Nguyện vọng tương lai</div>
         <div class="text">Mình chọn thi khối Khoa học tự nhiên, nguyện vọng 1 là ngành Sư phạm Đại học Sư Phạm và Đại học Luật</div>
       </div>

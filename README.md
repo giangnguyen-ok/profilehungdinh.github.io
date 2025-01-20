@@ -194,7 +194,7 @@
       </div>
       <div class="text-container info-container">
         <div class="title">Thông tin cá nhân</div>
-        <div class="text">Hiện tại mình học lớp 12 Lý, trường THPT Chuyên Bến Tre. Mình nặng 55kg và cao 1,70m.Mình là một Madridista đấy nhé và thần tượng của mình là Jude Bellingham</div>
+        <div class="text">Hiện tại mình học lớp 12 Lý, trường THPT Chuyên Bến Tre. Mình nặng 55kg và cao 1,70m.Mình là một Madridista đấy nhé và thần tượng của mình là Jude Bellingham.</div>
       </div>
     </div>
 
@@ -202,7 +202,7 @@
     <div class="section second-section">
       <div class="text-container info-container">
         <div class="title">Nguyện vọng tương lai</div>
-        <div class="text">Mình chọn thi khối Khoa học tự nhiên, nguyện vọng 1 là ngành Sư phạm Đại học Sư Phạm và Đại học Luật</div>
+        <div class="text">Mình chọn thi khối Khoa học tự nhiên, nguyện vọng 1 là ngành Sư phạm Đại học Sư Phạm và Đại học Luật.</div>
       </div>
       <div class="image">
         <img src="dinh.jpg" alt="Ảnh 2">

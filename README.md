@@ -3,20 +3,32 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Trang Web Của Tôi</title>
+  <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet"> <!-- Thêm link font Lora -->
   <style>
     body {
-      background-color: #ADFF2F; /* Màu hồng nhạt */
-      font-family: 'Arial', sans-serif;
+      font-family: 'Lora', serif; /* Sử dụng font Lora */
       margin: 0;
       padding: 0;
+      background-image: url('Nền sân santiago bernabeu.jpg'); /* Thêm hình ảnh nền */
+      background-size: cover; /* Lấp đầy toàn bộ trang */
+      background-position: center; /* Căn giữa hình ảnh */
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 20px;
     }
 
     /* Pano đầu trang */
     .header {
-      background-color: #000000; /* Màu đen */
+      background-color: #000000; /* Màu nền pano là đen */
       color: white;
       text-align: center;
       padding: 20px;
+      position: relative;
+      z-index: 2; /* Đảm bảo pano luôn ở trên cùng */
     }
 
     /* Chữ với hiệu ứng bay lơ lửng */
@@ -48,37 +60,6 @@
       100% {
         transform: translateY(0);
       }
-    }
-  </style>
-</head>
-<body>
-  <div class="header">
-    <h1 class="floating-text">ĐẶNG HÙNG DINH XIN CHÀO XIN CHÀO</h1>
-  </div>
-</body>
-
-
-
-
-<html lang="vi">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Trang Web Của Tôi</title>
-  <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet"> <!-- Thêm link font Lora -->
-  <style>
-    body {
-      font-family: 'Lora', serif; /* Sử dụng font Lora */
-      margin: 0;
-      padding: 0;
-      background-color: #f8d7d7; /* Màu nền nhẹ */
-    }
-
-    .container {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      margin: 20px;
     }
 
     /* Dòng giới thiệu khái quát bản thân */
@@ -172,6 +153,10 @@
 </head>
 <body>
 
+  <div class="header">
+    <h1 class="floating-text">ĐẶNG HÙNG DINH XIN CHÀO XIN CHÀO</h1>
+  </div>
+
   <div class="container">
     <!-- Dòng giới thiệu khái quát bản thân -->
     <div class="intro">
@@ -204,4 +189,3 @@
 
 </body>
 </html>
-
